@@ -28,7 +28,7 @@ logger.setLevel(logging.INFO) # 레벨 설정
 # logger(logging의 객체)가 찾은 오류를 어떻게 사용자에게 보여줄지 결정
 # fileHandeler = logging.FileHandler(filename="./logs/log_youtube_crawl.log", maxBytes=LOG_MAX_SIZE, backupCount=LOG_FILE_CNT) # 파일 형태
 # streamHandler = logging.StreamHandler() # 콘솔 형태 
-fileHandeler = logging.handlers.RotatingFileHandler( "./logs/log_test.log", maxBytes=LOG_MAX_SIZE, backupCount=LOG_FILE_CNT )
+fileHandeler = logging.handlers.RotatingFileHandler( "./logs/log_test.log", maxBytes=LOG_MAX_SIZE, backupCount=LOG_FILE_CNT , encoding="utf-8" )
 
 # handler 레벨 설정 - handler 마다 레벨설정 필요
 fileHandeler.setLevel(logging.INFO) 

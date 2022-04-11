@@ -1,29 +1,10 @@
-# logging
+<h1 align="center">Hi 👋, I'm sang</h1>
+<h3 align="center">A passionate frontend developer from India</h3>
 
-**[logging 로깅]**  
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-## Running the tests 
-file description
-```
-log_test.py : 로깅 테스트 파일 
-```
-run
-```
-log_test.py
-```
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-## description
-
-log level 
-
-info : 일반적인 운영 (로그 실행했다 중지 되었다 등등)
-debug : 모두 보겠다! 즉, 세세하게 살펴보겠다
-error :  에러만 보겠다
-
--> 일반적으로 트러블슈팅할 때는 debug로 변경해서 다시 실행
-debug를 하면 좋겠지만 그러면 로그 파일의 크기가 커지게 됨
-
-개발자가 알아서 필요한 수준으로 조정하면 됨
-
-## Contribution
-박상은
